@@ -178,6 +178,8 @@ input[type="date"] {
 }
 
 div {
+    overflow: hidden;
+
   margin-top: 42px;
   padding: 3.1vw;
 
