@@ -170,7 +170,7 @@ header {
 .hero h1 {
   /* font styling */
 
-  font-family: "space mono", sans-serif;
+  font-family: "space mono", monospace;
 
   font-weight: 500;
 }
