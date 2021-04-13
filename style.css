@@ -609,6 +609,38 @@ hr {
   font-weight: 500;
 }
 
+/* BLOG PAGE STYLE */
+.text {
+  --font-size: 1rem;
+  --line-height: calc(var(--font-size) * var(--ratio));
+  --spacing: calc(var(--line-height) / 2);
+  --ratio: 1.5;
+  margin: 0 0 var(--spacing);
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+}
+
+.blogpostpage {
+  padding: 120px 10%;
+}
+
+.blogpostpage h1 {
+  font-family: manrope;
+  font-weight: 700;
+  font-size: 34px;
+}
+.blogpostpage p {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.blogpostpage img {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-size: 18px;
+}
+
 /* Responsiveness */
 
 /* mobile */
