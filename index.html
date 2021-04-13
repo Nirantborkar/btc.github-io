@@ -5,27 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AskBTC</title>
-    <link rel="stylesheet" href="./askbtc.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <!-- navbar -->
+    <!-- NAV BAR -->
 
-    <nav><img src="./Logo.png" alt="askbtc.in logo" /></nav>
-    <br />
+    <header>
+      <a class="logo" href="/"><img src="./Logo.png" alt="logo" /></a>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+      <a class="cta" href="#">Calculate</a>
+      <p class="menu cta">Menu</p>
+    </header>
+    <div id="mobile__menu" class="overlay">
+      <a class="close">&times;</a>
+      <div class="overlay__content">
+        <a href="#">Home</a>
+        <a href="#">Blogs</a>
+        <a href="#">About</a>
+        <a href="#">Calculate</a>
+      </div>
+    </div>
+    <script type="text/javascript" src="mobile.js"></script>
 
-    <!-- home hero section -->
+    <!-- NAV BAR END -->
+
+    <!-- HERO SECTION -->
 
     <section class="hero">
       <div class="hero-section">
         <h1>The Best Bitcoin Investment Calculator Used By Professionals</h1>
-        <a href="#jump">CALCULATE NOW</a>
+        <a href="#jump">Calculate Now</a>
       </div>
     </section>
+
+    <!-- HERO SECTION END -->
 
     <!-- calculator form -->
     <section class="calculator form">
@@ -46,7 +89,7 @@
           </select>
         </div>
 
-        <div class="form_entry" style="background-color: #3867e4">
+        <div class="form-entry" style="background-color: #3867e4">
           <input
             type="number"
             name="Enter Amount In USD"
@@ -69,6 +112,6 @@
       </form>
     </section>
 
-    <footer>© 2021 AskBTC. All rights reserved</footer>
+    <!-- HERO SECTION END -->
   </body>
 </html>
