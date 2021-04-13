@@ -491,9 +491,9 @@ p {
   border-radius: 0px;
   cursor: pointer;
   margin-top: 58px;
-
-  display: block;
   text-decoration: none;
+  display: block;
+
   display: inline-block;
 
   cursor: pointer;
@@ -566,7 +566,7 @@ hr {
   size: 1px white;
 }
 
-div a {
+/* div a {
   background-color: #e9f6ff;
   color: #3d6dea;
   padding: 10px 24px;
@@ -579,13 +579,34 @@ div a {
   font-family: "Manrope", sans-serif;
   font-size: 18px;
   font-weight: bold;
-}
+} */
 
 .button {
   margin-bottom: 120px;
   align-items: center;
   display: flex;
   justify-content: center;
+}
+
+.button a {
+  /* button styling */
+
+  background-color: #0a46e4;
+  border: none;
+  color: white;
+  border-radius: 0px;
+  cursor: pointer;
+  margin-top: 58px;
+  text-decoration: none;
+
+  cursor: pointer;
+
+  /* font styling */
+
+  font-family: "Space Mono", monospace;
+
+  font-size: 18px;
+  font-weight: 500;
 }
 
 /* Responsiveness */
@@ -597,7 +618,7 @@ div a {
     font-size: 34px;
     padding: 0 10px;
   }
-  h2 {
+  .result h2 {
     font-size: 34px;
     padding: 0 10px;
   }
@@ -605,6 +626,9 @@ div a {
     padding: 18px 36px;
   }
   .result a {
+    padding: 18px 36px;
+  }
+  .button a {
     padding: 18px 36px;
   }
   .secondcta a {
@@ -633,11 +657,14 @@ div a {
     font-size: 34px;
     padding: 0 10px;
   }
-  h2 {
+  .result h2 {
     font-size: 34px;
     padding: 0 10px;
   }
   .hero a {
+    padding: 14px 10px;
+  }
+  .button a {
     padding: 14px 10px;
   }
   .result a {
@@ -681,11 +708,14 @@ div a {
   h1 {
     font-size: 56px;
   }
-  h2 {
+  .result h2 {
     font-size: 46px;
   }
 
   .hero a {
+    padding: 16px 28px;
+  }
+  .button a {
     padding: 16px 28px;
   }
   .result a {
