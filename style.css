@@ -5,7 +5,7 @@
   font-family: Manrope;
   font-family: "Space Mono", monospace;
    overflow-x: hidden;
-   overflow-y: hidden;
+  
 }
 
 /* NAVBAR STYLE */
@@ -789,4 +789,11 @@ hr {
   .result h2 {
     width: 70%;
   }
+}
+
+
+* {
+  
+   overflow-x: hidden;
+  
 }
